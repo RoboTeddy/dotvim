@@ -23,4 +23,3 @@ set nohlsearch
 set incsearch
 
 " autocmd BufLeave,FocusLost wall
-
