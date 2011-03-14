@@ -9,7 +9,6 @@ set nocompatible
 
 " wombats
 colorscheme wombat
-DoJumpHl
 
 " file types
 au BufNewFile,BufRead *.as set filetype=actionscript
