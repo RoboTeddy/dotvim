@@ -9,7 +9,10 @@ set nocompatible
 
 " wombats
 colorscheme wombat
-set DoJumpHl
+DoJumpHl
+
+" file types
+au BufNewFile,BufRead *.as set filetype=actionscript
 
 " quicker window navigation
 map <C-j> <C-W>j
@@ -19,7 +22,8 @@ map <C-l> <C-W>l
 
 " shift-enter to exit insert mode
 " inoremap <S-CR> <Esc>
-inoremap <CR> <Esc>
+" inoremap <CR> <Esc>
+inoremap kj <Esc>
 
 set cindent
 set autoindent
