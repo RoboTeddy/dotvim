@@ -39,5 +39,9 @@ set incsearch
 
 " file management
 set autoread
-au FocusLost * :wa " autosave
+"au FocusLost * :wa " autosave
+au FocusLost * silent! :wa " autosave
 set viminfo='100,f1
+
+" actionscript language
+let tlist_actionscript_settings = 'actionscript;c:class;f:method;p:property;v:variable'
